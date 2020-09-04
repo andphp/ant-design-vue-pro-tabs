@@ -1,0 +1,29 @@
+@import '../index';
+
+@multi-tab-prefix-cls: ~"@{ant-pro-prefix}-multi-tab";
+@multi-tab-wrapper-prefix-cls: ~"@{ant-pro-prefix}-multi-tab-wrapper";
+
+/*
+.topmenu .@{multi-tab-prefix-cls} {
+  max-width: 1200px;
+  margin: -23px auto 24px auto;
+}
+*/
+.@{multi-tab-prefix-cls} {
+  margin: -23px -24px 24px -24px;
+  background: #f0f2f5;
+}
+
+.topmenu .@{multi-tab-wrapper-prefix-cls} {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topmenu.content-width-Fluid .@{multi-tab-wrapper-prefix-cls} {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.@{multi-tab-prefix-cls} .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+  background: #f0f2f5;
+  border-bottom: #f0f2f5;
+}
